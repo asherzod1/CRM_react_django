@@ -1,5 +1,36 @@
 .sider{
   width: 20%;
   min-height: 90vh;
-  background: red;
+  background: #fff;
+  padding-top: 26px;
+
+  &__menu{
+
+    &:hover{
+      border-left: 4px solid #8D7CC1;
+      .sider__menu__item{
+        background: rgba(141, 124, 193, 0.2);
+        color: #8D7CC1;
+        margin-left: 18px;
+      }
+    }
+    &__item{
+      width: 70%;
+      border-radius: 13px;
+      padding: 14px 0px 10px 16px;
+      display: flex;
+      font-size: 18px;
+      margin-left: 22px;
+      color: rgba(0,0,0,0.3);
+      h3{
+        margin-left: 14px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px!important;
+        line-height: 20px;
+      }
+    }
+  }
+
 }
