@@ -43,9 +43,34 @@
       justify-content: flex-end;
       width: 45%;
       padding-right: 50px;
+      .user-photo{
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        img{
+          width: 100%;
+        }
+      }
       .open_for_desktop{
         display: flex;
         align-items: center;
+        transform: translateY(6px);
+      }
+      .notification{
+        color: black;
+        font-size: 20px;
+        transform: translateY(-4px);
+        margin-right: 23px;
+        position: relative;
+        .notification-badge{
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          background: red;
+          border-radius: 50%;
+          top: 8px;
+          right: 0;
+        }
       }
       p{
         font-family: Inter;
