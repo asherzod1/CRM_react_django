@@ -25,9 +25,13 @@ function Navbar(props) {
                             <span className="slider round"></span>
                         </label>
                     </div>
-                    <div style={{fontSize:'20px'}}>
+                    <a href="#" className="notification">
+                        <div className="notification-badge"></div>
                         <RiNotificationLine />
-                    </div>
+                    </a>
+                    <a href="#" className="user-photo">
+                        <img src="weatherforec.jpg" alt=""/>
+                    </a>
                 </div>
             </div>
         </div>
