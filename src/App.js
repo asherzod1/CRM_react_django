@@ -1,9 +1,10 @@
 import './App.css';
-import Layout from "./components/layout";
+import Layout from "./components/layout/Layout";
+import CoursePage from "./components/pages/CoursePage";
 function App() {
   return (
     <div className="App">
-      <Layout />
+      <CoursePage/>
     </div>
   );
 }
