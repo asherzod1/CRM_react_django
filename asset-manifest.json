@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CRM_react_django/static/css/main.b6158a1b.css",
+    "main.js": "/CRM_react_django/static/js/main.3502fcd4.js",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/CRM_react_django/static/media/Inter-VariableFont_slnt,wght.b4c30855aff392d7e8dc.ttf",
+    "index.html": "/CRM_react_django/index.html",
+    "main.b6158a1b.css.map": "/CRM_react_django/static/css/main.b6158a1b.css.map",
+    "main.3502fcd4.js.map": "/CRM_react_django/static/js/main.3502fcd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6158a1b.css",
+    "static/js/main.3502fcd4.js"
+  ]
+}
