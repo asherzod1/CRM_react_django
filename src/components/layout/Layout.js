@@ -8,9 +8,11 @@ function Layout(props) {
             <Navbar />
             <div className="d-flex" style={{width:'100%'}}>
                 <Sider />
-                {
-                    props.children
-                }
+                <Content>
+                    {
+                        props.children
+                    }
+                </Content>
 
             </div>
 

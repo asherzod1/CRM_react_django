@@ -9,7 +9,7 @@ function Navbar(props) {
     return (
         <div className="navbarr">
             <div className="navbarr__left">
-                <h3 className="navbarr__left__title">Zako iT academy</h3>
+                <a className="navbarr__left__title">Zako iT academy</a>
             </div>
             <div className="navbarr__right">
                 <div className="navbarr__right__left">
